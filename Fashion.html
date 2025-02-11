@@ -4,8 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        section{
+            display: flex;
+            
+            justify-content: space-evenly;
+            gap: 20px;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        div{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+    </style>
 </head>
 <body>
-    <img src="img1.jfif" alt="">
+    <section>
+    <div>
+        <img src="img1.jfif" alt="">
+        price:$200;
+    </div>
+   
+        <div >
+            <img src="best-kurtis-image.jpg" alt="Product Image">
+            <div class="product-title">kurtis</div>
+            <div class="product-price">₹499</div>
+        </div>
+         <!-- Product 2 -->
+    <div>
+        <img src="best-fancydress-image.jpg" alt="Product Image">
+        <div class="product-title">fancydress</div>
+        <div class="product-price">₹599</div>
+    </div>
+    <!-- Product 3 -->
+    <div class="product-card">
+        <img src="best-shortkurti-image.jpg" alt="Product Image">
+        <div class="product-title">shortkurti</div>
+        <div class="product-price">₹350</div>
+    </div>
+    <!-- Product 4 -->
+    <div class="product-card">
+        <img src="best-onepice2-image.jpg" alt="Product Image">
+        <div class="product-title">onepice</div>
+        <div class="product-price">₹650</div>
+    </div>
+</div>
+</section>
 </body>
 </html>
